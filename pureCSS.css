@@ -1,0 +1,107 @@
+.divTable {
+	display: table;
+	border: solid;
+	border-color: #696969;
+	height: 100%;
+	width: 70%;
+	margin:2%;
+	color: black;
+	background-color: white;
+}
+.divTable select {
+	display: block;
+	border: solid;
+	border-color: #696969;
+align-self: right;
+	color: black;
+	background-color: white;
+	text-align: left;
+}
+.divMore {
+
+	display: table;
+	border: solid;
+	border-color: #696969;
+	height: 100%;
+	margin:2%;
+	padding: 2%;
+	color: black;
+	background-color: white;
+}
+
+.divRow {
+	display: table-row;
+height: 20%;
+
+}
+
+.divCol {
+	    display: table-cell;
+border-bottom: 1px solid #696969;
+margin:2%;
+	padding: 2%;
+border-left: 1px solid #696969;
+height:30px;
+background-color: white;
+border-right: 1px solid #696969;
+width: 20%;
+text-align: center;
+}
+.divHead {
+	font-weight: bolder;
+	    display: table-cell;
+border-bottom: 1px solid #696969;
+
+border-left: 1px solid #696969;
+height:30px;
+background-color: white;
+border-right: 1px solid #696969;
+width: 20%;
+margin:2%;
+	padding: 2%;
+text-align: center;
+cursor: pointer;
+}
+
+#divSelect {
+		display: table;
+	border: solid;
+	border-color: #696969;
+	height: 100%;
+	width: 80%;
+	margin:2%;
+	color: black;
+	background-color: white;
+
+}
+
+#divSelectInput {
+  display: none;
+max-height: 30px;
+min-width: 120px;
+overflow: all;
+overflow-wrap: all;
+text-align: left;
+margin-left: 1%;
+}
+
+#divSelectInput label {
+  display: block;
+  font-size: smaller;
+}
+
+#divApply{
+	color: #1E90FF;
+	font-weight: bolder;
+	font-family: serif;
+	cursor: pointer;
+}
+
+#divApply :disabled {
+		cursor: none;
+		color: gray;
+
+}
+.checkBoxClass {
+		color: #1E90FF;
+	}
